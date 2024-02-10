@@ -1,0 +1,10 @@
+/*Header*/
+
+.header {
+    background-color: var(--background-color-header);
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header__container {
+    display: flex;
+}

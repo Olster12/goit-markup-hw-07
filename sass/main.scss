@@ -1,0 +1,32 @@
+//Utils
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+
+//Base styles
+@import "./base/common";
+@import "./base/reset";
+@import "./base/js-selectors";
+@import "./base/container";
+@import "./base/card-set";
+
+//Components
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/social-list";
+@import "./components/modal-windov";
+@import "./components/form";
+
+//Loyouts
+@import "./layouts/hedeader";
+@import "./layouts/nav-site";
+@import "./layouts/hero";
+@import "./layouts/advantages";
+@import "./layouts/about-us";
+@import "./layouts/aur-team";
+@import "./layouts/aur-client";
+@import "./layouts/footer";
+
+
+
+
+

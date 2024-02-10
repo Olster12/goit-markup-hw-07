@@ -1,0 +1,22 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);}
+
+.visually-hidden:hover+.check__box,
+.visually-hidden:focus+.check__box {
+    background-image: url(../images/check-focus.svg);
+}
+
+
+.visually-hidden:checked+.check__box {
+    border-radius: 2px;
+    background-color: #2196F3;
+    background-image: url(../images/icon\ check.svg);
+    background-size: contain;
+    background-origin: content-box;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}

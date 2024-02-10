@@ -1,0 +1,30 @@
+/* Portfolio */
+
+.portfolio__nav {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+    &:not(:last-child) {
+            margin-right: 8px;
+    }
+}
+
+.portfolio__titel {
+    color: var(--hed-text-color);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio__text {
+    margin-top: 4px;
+
+    color: var(--primaey-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
