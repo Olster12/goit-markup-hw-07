@@ -4,10 +4,10 @@
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+}
 
-    &:not(:last-child) {
-            margin-right: 8px;
-    }
+.portfolio__item:not(:last-child){
+    margin-right: 8px;
 }
 
 .portfolio__titel {
