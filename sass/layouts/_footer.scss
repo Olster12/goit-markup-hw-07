@@ -1,6 +1,6 @@
 /* Footer */
 .footer {
-    background: #2F303A;
+    background:var(--background-footer);
 }
 
 .footer__item {
@@ -39,7 +39,7 @@
 .footer__titel {
     margin-bottom: 20px;
 
-    color: #FFFFFF;
+    color: var(--text-footer-color);
 
     font-style: normal;
     font-weight: 700;

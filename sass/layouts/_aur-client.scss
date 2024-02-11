@@ -7,7 +7,6 @@
 
 .client__card:not(:last-child) {
     margin-right: 30px;
-
 }
 
 .client__icon {
@@ -17,7 +16,7 @@
     width: 170px;
     height: 92px;
 
-    color: var(--primaey-text-color);
+    color: var(--svg-primery-color);
     fill: #AFB1B8;
 
     border: 1px Solid #AFB1B8;
@@ -29,7 +28,7 @@
 
 .client__icon:hover,
 .client__icon:focus {
-            border-color: var(--link-color);
-            fill: var(--link-color);
+            border-color: var(--svg-link-color);
+            fill: var(--svg-link-color);
         }
 

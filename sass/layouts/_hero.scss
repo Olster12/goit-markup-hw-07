@@ -10,7 +10,7 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/bacgraund-hero.jpg);
-    background-color: #C4C4C4;
+    background-color:var(--background-header-color);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -25,7 +25,7 @@
     margin-bottom: 30px;
     max-width: 696px;
 
-    color: #FFFFFF;
+    color:var(--text-h2-6-light-color);
 
     font-style: normal;
     font-weight: 900;

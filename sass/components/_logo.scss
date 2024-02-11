@@ -13,13 +13,13 @@
 }
 
 .logo--accent {
-    color: var(--accent-logo-color);
+    color: var(--logo-accent-color);
 }
 
 .logo--mode-light {
-    color: #FFFFFF;
+    color: var(--logo-text-light);
 }
 
 .logo--mode-dark {
-    color: #000000;
+    color: var(--logo-text-dark);
 }

@@ -1,20 +1,50 @@
 :root {
-/*tet color*/
-    --primaey-text-color: #757575;
-    --hed-text-color: #212121;
+/*Text color*/
+    --text-nav-link:#212121;
+    --text-primery-color:#757575;
+    --text-h2-6-dark-color:#212121;
+    --text-h2-6-light-color: #FFFFFF;
+    --text-footer-color: #FFFFFF;
 
-/*logo color*/
-    --accent-logo-color: #2196F3;
+/*Btn-primery color*/
+    --btn-text: #FFFFFF;
+    --btn-background: #2196F3;
+    --btn-border: #2196F3;
 
-/*background color*/
-    --background-color-header: #FFFFFF;
-    --hero-backgraund-color: #2F303A;
+/*Btn-secondary color*/
+    --btn-sec-text:#212121;
+    --btn-sec-background:#F5F4FA;
+    --btn-sec-text-hover:#FFFFFF;
+    --btn-sec-background-hover:#2196F3;
+
+/*Logo color*/
+    --logo-accent-color: #2196F3;
+    --logo-text-light:#FFFFFF;
+    --logo-text-dark:#000000;
+
+/*Background color*/
+    --background-header-color: #FFFFFF;
+    --backgraund-hero-color: #2F303A;
+    --backgraund-modal-color:#FFFFFF;
+    --backgraund-tumd-advantage:#F5F4FA;
+    --background-abaut-us-decor:rgba(47, 48, 58, 0.8);
     --backgraund-section: #F5F4FA;
+    --background-footer:#2F303A;
 
-/*link color*/
+/*Link color*/
     --link-color: #2196F3;
 
-/*grit*/
+/*Current*/
+    --current-color:#2196F3;
+
+/*Grit card*/
     --card-set-gap: 30px;
-    --background-card__content: rgba(255, 255, 255, 1);
+    --card-background: rgba(255, 255, 255, 1);
+    --card-text-overlay:#FFFFFF;
+    --card-backgraund-overlay:rgba(33, 150, 243, 0.9);
+
+/*SVG color*/
+    --svg-primery-color:#AFB1B8;
+    --svg-secondary-color:#FFFFFF;
+    --svg-link-color:#2196F3;
 }
